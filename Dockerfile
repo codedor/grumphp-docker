@@ -1,4 +1,4 @@
-FROM php:7.2-cli
+FROM php:5.6-cli
 
 RUN apt-get update -y \
      && apt-get install -y curl git unzip
